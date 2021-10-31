@@ -1,0 +1,54 @@
+
+/* Tailwind utility classes */
+
+.app {
+  @apply flex flex-row min-h-screen min-w-full bg-backgroundColor text-text font-roboto font-light;
+}
+
+.lateral-bar {
+  @apply flex flex-row shadow-3xl;
+}
+
+.actions-bar {
+  @apply flex flex-col items-center bg-light w-12 pt-4 shadow-xl z-30;
+}
+
+.projects-bar {
+  @apply flex flex-col bg-main w-52 z-20;
+}
+
+.lateral-action {
+  @apply pb-5 h-14 w-14 text-darkText cursor-pointer hover:text-text
+}
+
+.project-item {
+  @apply pl-6 pt-1 pb-1 cursor-pointer hover:bg-mainLight
+}
+
+.selected-project-item {
+  @apply pl-6 pt-1 pb-1 cursor-pointer bg-light
+}
+
+.content-container {
+  @apply flex flex-col w-full h-full;
+}
+
+.tabs-bar {
+  @apply flex flex-row w-full h-10 bg-main z-10;
+}
+
+.tab {
+  @apply flex flex-row items-center justify-center w-max pl-2.5 pr-5 cursor-pointer text-sm;
+}
+
+.selected-tab {
+  @apply tab bg-backgroundColor;
+}
+
+.path-bar {
+  @apply flex flex-row w-full h-5 items-center bg-backgroundColor z-10 text-xs shadow-3xl cursor-default text-darkText;
+}
+
+.content {
+  @apply flex flex-col w-full pl-4 pr-4 overflow-scroll overflow-x-hidden h-screen;
+}

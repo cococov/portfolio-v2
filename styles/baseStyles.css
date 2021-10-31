@@ -1,0 +1,39 @@
+/* Base Styles */
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow               : hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 1rem;
+}
+
+/* Container gray scroll property */
+html {
+  --scrollbarBG: #1d2026;
+  --thumbBG    : #333842;
+}
+
+.content::-webkit-scrollbar {
+  width: 15px;
+}
+
+.content {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.content::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border          : 0px solid var(--scrollbarBG);
+}
