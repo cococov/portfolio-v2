@@ -46,7 +46,7 @@
 }
 
 .path-bar {
-  @apply flex flex-row w-full h-5 items-center bg-backgroundColor z-10 text-xs shadow-3xl cursor-default text-darkText;
+  @apply flex flex-row w-full h-5 pl-1 items-center bg-backgroundColor z-10 text-xs shadow-3xl cursor-default text-darkText;
 }
 
 .content {
