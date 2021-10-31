@@ -18,7 +18,7 @@
 }
 
 .lateral-action {
-  @apply pb-5 h-14 w-14 text-darkText cursor-pointer hover:text-text
+  @apply pb-5 h-14 w-14 text-darkText cursor-pointer hover:text-text !important;
 }
 
 .project-item {
