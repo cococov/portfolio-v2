@@ -1,0 +1,44 @@
+{
+  "portfolio.jsx": {
+    "name": "portfolio.jsx",
+    "fileName": "portfolio",
+    "ico": "react",
+    "icoType": "fab"
+  },
+  "magiclife.jsx": {
+    "name": "magiclife.jsx",
+    "fileName": "magiclife",
+    "ico": "react",
+    "icoType": "fab"
+  },
+  "user-crud.jsx": {
+    "name": "userCrud.jsx",
+    "fileName": "usercrud",
+    "ico": "react",
+    "icoType": "fab"
+  },
+  "rest-alarm.js": {
+    "name": "rest-alarm.js",
+    "fileName": "restalarm",
+    "ico": "js-square",
+    "icoType": "fab"
+  },
+  "rom-price-scraping.js": {
+    "name": "rom-price-scraping.js",
+    "fileName": "rompricescraping",
+    "ico": "js-square",
+    "icoType": "fab"
+  },
+  "minesweeper.java": {
+    "name": "minesweeper.java",
+    "fileName": "minesweeper",
+    "ico": "java",
+    "icoType": "fab"
+  },
+  "rewrite.c": {
+    "name": "rewrite.c",
+    "fileName": "rewrite",
+    "ico": "copyright",
+    "icoType": "fas"
+  }
+}
