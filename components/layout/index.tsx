@@ -1,18 +1,26 @@
 import Head from 'next/head';
+import { LateralBar, TabsBar, PathBar } from 'components';
+import React from 'react';
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <div className="app">
+    <>
       <Head>
-        <title>Create Next App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Juan Carlos Lamas Alfaro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
-        {children}
+      <main className="app">
+        <LateralBar />
+        <span className="content-container">
+          <TabsBar />
+          <PathBar />
+          {children}
+        </span>
       </main>
-    </div>
-  )
-}
+    </>
+  );
+};
 
 export default Layout;

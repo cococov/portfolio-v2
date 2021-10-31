@@ -6,7 +6,7 @@
 }
 
 .lateral-bar {
-  @apply flex flex-row shadow-3xl;
+  @apply flex flex-row shadow-3xl max-h-screen;
 }
 
 .actions-bar {
@@ -50,5 +50,5 @@
 }
 
 .content {
-  @apply flex flex-col w-full pl-4 pr-4 overflow-scroll overflow-x-hidden h-screen;
+  @apply flex flex-col w-full pl-4 pr-4 overflow-scroll overflow-x-hidden h-screen pb-20;
 }
