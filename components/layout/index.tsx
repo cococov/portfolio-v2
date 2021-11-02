@@ -1,8 +1,10 @@
 import Head from 'next/head';
-import { LateralBar, TabsBar, PathBar } from 'components';
-import React from 'react';
+import LateralBar from './lateral_bar';
+import TabsBar from './tabs_bar';
+import PathBar from './pathBar';
+import type { ProjectInfo } from 'utils/types';
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC<{ projectsInfo: ProjectInfo[] }> = ({ children, projectsInfo }) => {
   return (
     <>
       <Head>
@@ -12,7 +14,7 @@ const Layout: React.FC = ({ children }) => {
       </Head>
 
       <main className="app">
-        <LateralBar />
+        <LateralBar projectsInfo={projectsInfo} />
         <span className="content-container">
           <TabsBar />
           <PathBar />

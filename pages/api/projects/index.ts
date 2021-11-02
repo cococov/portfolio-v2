@@ -1,21 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import projects from 'database/projects/projects.json'
-
-type ProjectInfo = {
-  name: string,
-  ico: string,
-  icoType: string
-}
-
-type Data = {
-  [key: string]: ProjectInfo
-}
+import { getAllProjectsInfo } from 'utils/content'
+import { ProjectInfo } from 'utils/types'
 
 const Projects = (
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<ProjectInfo[]>
 ) => {
-  res.status(200).json(projects);
+  res.status(200).json(getAllProjectsInfo('spa'));
 }
 
 export default Projects;

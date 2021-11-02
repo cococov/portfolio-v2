@@ -13,7 +13,7 @@
   @apply flex flex-col items-center bg-light w-12 pt-4 shadow-xl z-30;
 }
 
-.projects-bar {
+.content-bar {
   @apply flex flex-col bg-main w-52 z-20;
 }
 
