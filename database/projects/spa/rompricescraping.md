@@ -1,3 +1,21 @@
+---
+file_name: rompricescraping
+display_name: rom_price_scraping.js
+title: Price Scraper and Notifications for Ragnarok Mobile
+ico:
+  - fab
+  - js-square
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/rom-price-scraping
+technologies:
+  - languages:
+      - JavaScript
+  - libraries:
+    - Node.js
+    - Inquirer
+    - Node-notifier
+---
 # Price Scraper and Notifications for Ragnarok Mobile
 
 ### Links

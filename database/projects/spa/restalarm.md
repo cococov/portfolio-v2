@@ -1,3 +1,23 @@
+---
+file_name: restalarm
+display_name: rest_alarm.js
+title: Rest Alarm
+ico:
+  - fab
+  - js-square
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/rest-alarm
+  - title: Técnica Pomodoro
+    url: https://en.wikipedia.org/wiki/Pomodoro_Technique
+technologies:
+  - languages:
+      - JavaScript
+  - libraries:
+    - Node.js
+    - Inquirer
+    - Node-notifier
+---
 # Rest Alarm
 
 ### Links

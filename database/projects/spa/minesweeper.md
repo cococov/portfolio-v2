@@ -1,3 +1,22 @@
+---
+file_name: minesweeper
+display_name: minesweeper.java
+title: Busca Minas
+ico:
+  - fab
+  - java
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/Busca-Minas
+  - title: Flood fill algorithm
+    url: https://en.wikipedia.org/wiki/Flood_fill
+technologies:
+  - languages:
+      - Java
+  - libraries:
+    - Swing
+    - Canvas
+---
 # Busca Minas
 
 ### Links

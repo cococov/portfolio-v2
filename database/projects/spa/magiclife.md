@@ -1,3 +1,25 @@
+---
+file_name: magiclife
+display_name: magiclife.jsx
+title: Magic Life
+ico:
+  - fab
+  - react
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/magiclife
+  - title: Página del proyecto
+    url: https://magiclife.juanlamas.dev/
+technologies:
+  - languages:
+      - JavaScript
+  - libraries:
+    - React
+    - React Context
+    - Material-UI
+  - otros:
+    - Firebase
+---
 # Magic Life
 
 ### Links

@@ -1,3 +1,26 @@
+---
+file_name: magiclife
+display_name: magiclife.jsx
+title: CRUD de usuarios
+ico:
+  - fab
+  - react
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/user-crud
+technologies:
+  - languages:
+      - JavaScript
+  - libraries:
+    - React
+    - React Native
+    - Node.js
+    - Express
+  - otros:
+    - SQL
+    - SQLite
+    - API REST
+---
 # CRUD de usuarios
 
 ### Links

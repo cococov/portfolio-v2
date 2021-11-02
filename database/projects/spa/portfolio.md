@@ -1,3 +1,25 @@
+---
+file_name: portfolio
+display_name: portfolio.jsx
+title: Portafolio
+ico:
+  - fab
+  - react
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/portfolio
+  - title: Página de mi portafolio
+    url: https://juanlamas.dev/
+technologies:
+  - languages:
+      - JavaScript
+  - libraries:
+    - React
+    - React Context
+    - Material-UI
+  - otros:
+    - Markdown
+---
 # Portafolio
 
 ### Links

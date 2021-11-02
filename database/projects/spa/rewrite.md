@@ -1,3 +1,24 @@
+---
+file_name: rewrite
+display_name: rewrite.c
+title: Rewrite
+ico:
+  - fas
+  - copyright
+links:
+  - title: Repositorio
+    url: https://github.com/cococov/rewrite
+  - title: GNU Bison
+    url: https://en.wikipedia.org/wiki/GNU_Bison
+  - title: Yacc
+    url: https://en.wikipedia.org/wiki/Yacc
+technologies:
+  - languages:
+      - C
+  - libraries:
+    - Yacc
+    - GNU Bison
+---
 # Rewrite
 
 ### Links
